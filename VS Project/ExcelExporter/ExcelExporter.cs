@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Data;
 using System.Globalization;
+using System.Text;
 using System.Web;
 using OfficeOpenXml;
-using OfficeOpenXml.Style;
 using OfficeOpenXml.Table;
 
 namespace ExcelExporter
 {
-    public class ExcelExporter
+    public static class ExcelExporter
     {
         public static byte[] GetExcelBytes(string fileName, DataSet dataSet)
         {
@@ -86,7 +86,7 @@ namespace ExcelExporter
         {
             var excel = GetExcelBytes(fileName, dataSet);
 
-            response.ContentEncoding = System.Text.Encoding.UTF8;
+            response.ContentEncoding = Encoding.UTF8;
             response.Charset = "UTF-8";
             response.AddHeader("content-disposition", "attachment;filename=" + fileName);
             response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
