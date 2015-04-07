@@ -1,6 +1,6 @@
-Bu uygulama EPPLUS kütüphanesini kullanarak hızlıca DataSet'i excel'e çevirmek için tasarlanmıştır. 
+Bu uygulama EPPLUS kÃ¼tÃ¼phanesini kullanarak hÄ±zlÄ±ca DataSet'i excel'e Ã§evirmek iÃ§in tasarlanmÄ±ÅŸtÄ±r. 
 
-İhtiyaçlar dahilinde geliştirilecektir. 
+Ä°htiyaÃ§lar dahilinde geliÅŸtirilecektir. 
 
-Excel için kullanılan kütüphane : http://epplus.codeplex.com/
-
+Proje sitesi : http://alperkonuralp.github.io/ExcelExporter
+Excel iÃ§in kullanÄ±lan kÃ¼tÃ¼phane : http://epplus.codeplex.com/
